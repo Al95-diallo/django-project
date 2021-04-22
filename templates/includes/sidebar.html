@@ -1,0 +1,59 @@
+{% load static %}
+<div class="sidebar">
+    <nav class="sidebar-nav">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href=""><i class="icon-speedometer"></i> Acceuil</a>
+            </li>
+            <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#">
+                    <i class="nav-icon icon-user"></i> Sondage</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i> Creer un Sondage</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i> Liste de sondage</a>
+                    </li>
+                </ul>
+            </li>
+            <!--
+            <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#">
+                    <i class="nav-icon icon-user"></i> Professeurs</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i>Liste des Professurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i> Ajouter un Professeur</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#">
+                    <i class="nav-icon icon-user"></i> Employees</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i> Liste des Emplyees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="nav-icon icon-puzzle"></i>Ajouter un Employee</a>
+                    </li>
+                </ul>
+            </li>
+            -->
+        </ul>
+    </nav>
+    <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+
+    {% block sidebar %}
+    {% endblock %}
+</div>
+
